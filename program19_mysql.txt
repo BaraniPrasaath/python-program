@@ -1,0 +1,16 @@
+-- create
+CREATE TABLE EMPLOYEE (
+  name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  image TEXT NOT NULL,
+  salary INT
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES ('Clark', 'clark@example.com', 'image1', 40000);
+INSERT INTO EMPLOYEE VALUES ('Dave', 'dave@example.com', 'image2', 41000);
+INSERT INTO EMPLOYEE VALUES ('Ava', 'ava@example.com', 'image3', 42000);
+INSERT INTO EMPLOYEE VALUES ('JOHN', 'john@example.com', 'image4', 43000);
+
+-- fetch 
+SELECT * FROM EMPLOYEE where salary>40000;
