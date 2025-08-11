@@ -9,7 +9,8 @@ This repository contains my solutions for the Younder Bots campus recruitment te
 2. Reverse a string
 3. Most frequently occurring element in a list
 4. Remove duplicates from a list
-5. Find the missing number in a range
+5. Checking wheather the given number is prime or not
+6. Find the missing number in a range
 
 ### SQL Queries
 1. Create `company_db` and `employees` table
